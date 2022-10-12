@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <RelativeLayout
+        android:id="@+id/input_fields"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:padding="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/link_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/ic_baseline_insert_link_24"
+            tools:ignore="ContentDescription" />
+
+        <EditText
+            android:id="@+id/url_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="16dp"
+            android:layout_toStartOf="@+id/link_icon"
+            android:background="@color/design_default_color_background"
+            android:hint="search or type URL here"
+            android:inputType="textUri"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText,TextFields"
+            android:importantForAutofill="no"
+            android:autofillHints="" />
+
+        <ImageView
+            android:id="@+id/clear_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_baseline_clear_24"
+            android:contentDescription="@string/todo"
+            tools:ignore="ContentDescription" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@id/input_fields"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/input_fields"
+        app:layout_constraintTop_toBottomOf="@+id/input_fields"
+        tools:ignore="MissingConstraints" />
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_below="@id/input_fields"
+        android:visibility="invisible"
+        tools:ignore="MissingConstraints" />
+
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="414dp"
+        android:layout_height="709dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_fields"
+        app:layout_constraintVertical_bias="0.503" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

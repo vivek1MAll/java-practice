@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TabLayoutApplication</string>
+    <string name="Url">Type URL and Press Enter...</string>
+    <string name="x">x</string>
+    <string name="back">Back</string>
+    <string name="forward">Forward</string>
+    <string name="reload">Reload</string>
+</resources>

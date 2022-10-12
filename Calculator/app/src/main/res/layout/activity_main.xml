@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".MainActivity"
+   >
+
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="358dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="80dp"
+        android:autofillHints=""
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="356dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="40dp"
+        android:autofillHints=""
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber"
+        tools:ignore="LabelFor,MissingConstraints" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="160dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="36dp"
+        android:text="@string/Add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MULTIPLICATION"
+        app:layout_constraintVertical_bias="0.274"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/SUBTRACTION"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="156dp"
+        android:text="@string/Sub"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber2"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/MULTIPLICATION"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="156dp"
+        android:text="@string/Multiplication"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toEndOf="@+id/SUBTRACTION"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber2"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/DIVISION"
+        android:layout_width="142dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/division"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SUBTRACTION"
+        app:layout_constraintVertical_bias="0.281"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

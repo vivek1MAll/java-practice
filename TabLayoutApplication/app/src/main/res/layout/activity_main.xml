@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:id="@+id/progress"
+        android:max="100"
+        android:layout_alignParentTop="true"
+        android:indeterminate="false"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/progress"
+        android:id="@+id/topBar">
+
+        <EditText
+            android:id="@+id/urlBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="www.google.com"
+            android:hint="@string/Url"
+            android:imeOptions="actionSearch"
+            android:inputType=""
+            android:paddingStart="5dp"
+            android:singleLine="true"
+            tools:ignore="HardcodedText,RtlSymmetry,TextFields" />
+
+        <Button
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancel"
+            android:text="@string/x"
+            android:visibility="visible"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomBar"
+        android:layout_below="@+id/topBar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottomBar"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="5dp"
+            android:text="@string/back" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/forward"
+            android:id="@+id/forward"
+            android:layout_toEndOf="@+id/back"
+            android:layout_marginEnd="5dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/refresh"
+            android:text="@string/reload"
+            android:layout_toEndOf="@id/forward"/>
+    </RelativeLayout>
+</RelativeLayout>

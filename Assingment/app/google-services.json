@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1097338682614",
+    "project_id": "assingment-bd40f",
+    "storage_bucket": "assingment-bd40f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097338682614:android:efb2517dde06bbae9600d7",
+        "android_client_info": {
+          "package_name": "com.example.assingment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097338682614-ribcea2tndravbsujot5at9idtl7dlkl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2yc0GtDt_QN5DapqYk65eqXtvW0C47Lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097338682614-ribcea2tndravbsujot5at9idtl7dlkl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

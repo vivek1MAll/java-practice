@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/vima274273/AndroidStudioProjects/ExpenseTracker/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.248" />
+        <entry key="..\:/Users/vima274273/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.2761044176706827" />
+        <entry key="..\:/Users/vima274273/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout-w936dp/activity_login.xml" value="0.30601092896174864" />
+        <entry key="..\:/Users/vima274273/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/activity_add_expense.xml" value="0.22" />
+        <entry key="..\:/Users/vima274273/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/activity_login.xml" value="0.4057971014492754" />
+        <entry key="..\:/Users/vima274273/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/vima274273/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/activity_navigation.xml" value="0.22" />
+        <entry key="..\:/Users/vima274273/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/appbar_main.xml" value="0.2984375" />
+        <entry key="..\:/Users/vima274273/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/containt_main.xml" value="0.2984375" />
+        <entry key="..\:/Users/vima274273/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/expenserow.xml" value="0.22" />
+        <entry key="..\:/Users/vima274273/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/fragment_afragment.xml" value="0.2984375" />
+        <entry key="..\:/Users/vima274273/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/headerlayou.xml" value="0.29791666666666666" />
+        <entry key="..\:/Users/vima274273/AndroidStudioProjects/ExpenseTracker/app/src/main/res/menu/add_manu.xml" value="0.4296875" />
+        <entry key="..\:/Users/vima274273/AndroidStudioProjects/ExpenseTracker/app/src/main/res/menu/navigation_resource_file.xml" value="0.2984375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

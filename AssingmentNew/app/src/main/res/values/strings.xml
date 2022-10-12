@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AssingmentNew</string>
+    <string name="login">Login</string>
+    <string name="enter_your_password">Enter your Password</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="sing_up">SING UP</string>
+    <string name="bahi_khata">Bahi-khata</string>
+</resources>
